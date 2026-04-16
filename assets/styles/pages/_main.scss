@@ -1,0 +1,15 @@
+@use "../abstracts" as *;
+
+h1 {
+    background-color: #fff;
+    @include rem(width, 200);
+    // @include rem(font-size, clamp(24, 2.5vw, 48));
+    @include f16(500, 1.6);
+}
+
+.sample-img {
+    display: block;
+    @include rem(width, 200);
+    @include rem(height, 200);
+}
+
